@@ -13,14 +13,18 @@ import modHome from './components/home';
 // import modLocation from './components/location';
 import modReddit from './components/reddit';
 import modSettings from './components/settings';
+import mainPage from './components/main';
+import wechatHome from './components/wechat/home';
+import wechatChat from './components/wechat/chat'
 // /********************************************************/
+
 
 const app = angular.module('app', [
   'ionic', 'ui.router', 'ngCordova',
   modConstant,
   modHome, modReddit,
   // modLocation,
-  modSettings
+  modSettings,mainPage,wechatHome,wechatChat
 ]);
 
 /* set up configuration */

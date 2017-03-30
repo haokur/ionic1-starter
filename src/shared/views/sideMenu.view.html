@@ -2,10 +2,11 @@
   <ion-side-menu-content> <!-- current content, what will be seen after pressing a desired menu -->
     <ion-nav-bar align-title="left" class="bar-positive"> <!-- top bar, when the application state changes the top bar state will update-->
 
-      <ion-nav-back-button class="button-clear"> <!-- the back button which will appear when the user is able to go back in the current navigation stack -->
-      </ion-nav-back-button>
 
       <ion-nav-buttons side="left"> <!-- button expanding menu -->
+      <button class="button button-clear icon weixin-back-icon " ng-click="$ionicGoBack()">
+        返回
+      </button>
         <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
         </button>
       </ion-nav-buttons>
