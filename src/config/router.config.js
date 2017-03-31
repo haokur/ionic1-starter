@@ -28,5 +28,5 @@ export default /* @ngInject */['$stateProvider', '$urlRouterProvider', function 
       template: require('../shared/views/wechat.view.html')
     }
   );
-  // $urlRouterProvider.otherwise('/app/home');
+  $urlRouterProvider.otherwise('/app/home');
 }];

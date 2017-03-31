@@ -1,9 +1,22 @@
 <ion-view ng-class="styles.local" view-title="home">
+  <ion-nav-bar align-title="left" class="bar-dark">
+    <!-- top bar, when the application state changes the top bar state will update-->
+    <ion-nav-buttons side="left">
+      <!-- button expanding menu -->
+      <a href="#/app/home">主页</a>
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+      <a class="button button-icon button-clear ion-gear-a" href="#/app/settings">
+      </a>
+    </ion-nav-buttons>
+
+  </ion-nav-bar>
 
   <ion-content>
 
     <h3>123123</h3>
-    <a class="button button-icon button-clear ion-gear-a"  href="#/wechat/chat">
+    <a class="button button-icon button-clear ion-gear-a" href="#/wechat/chat">
       跳转
     </a>
   </ion-content>
